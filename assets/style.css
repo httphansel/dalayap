@@ -36,3 +36,6 @@ body {
 #activity_section{
     background-color: var(--black);
 }
+#footer_section{
+    background-color: var(--red2);
+}
