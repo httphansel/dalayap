@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/webfonts/fa-brands-400.ttf">
+    <link rel="stylesheet" href="assets/webfonts/fa-solid-900.ttf">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Brgy.Dalayap, Pampanga</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-3">
+            <a class="navbar-brand fw-bold fs-5 text-light" href="#">
+                Brgy.Dalayap, Pampanga
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" id="loglink" aria-current="page" href="#">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" id="loglink" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="hero_section">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-md-3"></div> <!-- Spacer for small and extra small devices -->
+                <div class="col-md-6 col-sm-12 text-center text-light mt-lg-3 pt-lg-3">
+                    <img src="assets/images/logo.png" alt="" class="img-fluid mx-auto d-block d-sm-none"> <!-- Center image on small screens -->
+                    <img src="assets/images/logo.png" alt="" class="img-fluid d-none d-sm-block"> <!-- Show image on small screens and larger -->
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum neque eum quibusdam voluptatem tenetur, doloribus vel incidunt sequi fugit tempora nisi dolorum aliquam. Reiciendis veniam dolore doloribus repudiandae doloremque ullam.</p>
+                    <button class="btn btn-outline-light fw-bold">Request Document</button>
+                </div>
+                <div class="col-md-3"></div> <!-- Spacer for small and extra small devices -->
+            </div>
+        </div>
+    </section>
+
+    <section id="official_section">
+        <div class="container container-fluid p-3">
+            <h1 class="text-center">BARANGAY OFFICIALS</h1>
+            <div class="border-bottom"></div>
+            <div class="row px-5 py-3 text-center g-3">
+
+                <div class="col-md-3 col-sm-12" id="column1" style="background-color: var(--orange);">
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                </div>
+                <div class="col-md-6 col-sm-12" id="column2" style="background-color: var(--red2);">
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                </div>
+                <div class="col-md-3 col-sm-12" id="column3" style="background-color: var(--orange);">
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                    <h1>HELLO</h1>
+                </div>
+
+            </div>
+            <div class="border-bottom"></div>
+        </div>
+    </section>
+    
+    <section id="activity_section">
+        <div class="container container-fluid p-3">
+            <h1 class="text-center text-light">CONTACT US</h1>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 p-md-5">
+                    <div class="border-bottom text-light mb-3"></div>
+                    <form action="" method="post" class="px-5">
+                        <label for="user_fullname" class="form-label fw-bold text-light">FULLNAME</label>
+                        <input type="text" class="form-control mb-3" name="user_fullname" placeholder="e.g. Juan Dela Cruz" autocomplete="off" required>
+                        <label for="user_email" class="form-label fw-bold text-light">EMAIL</label>
+                        <input type="email" class="form-control mb-3" name="user_email" autocomplete="off" placeholder="e.g. juan@gmail.com" required>
+                        <label for="user_blotter" class="form-label fw-bold text-light">DESCRIPTION</label>
+                        <textarea name="user_blotter" id="user_blotter" cols="30" rows="10" class="form-control" placeholder="Type your concern here..."></textarea>
+                        <button class="btn btn-primary float-end mt-2">SUBMIT</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h2 class="text-center text-warning">ACTIVITIES</h2>
+                    <div class="border-bottom text-light"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/sweetalert.js"></script>
+</body>
+</html>
